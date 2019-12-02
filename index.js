@@ -23,8 +23,9 @@ function filterFunction(arrayOfHistory){
 	output.innerHTML='';
 	for(i=0;i<arrayOfHistory.length;i++){
 		console.log('filter');
-		if(arrayOfHistory[i].title.search(regex)>-1){
-			output.innerHTML+='<li><a href='+arrayOfHistory[i].url+' target=_blank>'+arrayOfHistory[i].title+'</a></li>';
+		if(arrayOfHistory[i].title.search(regex)>-1||arrayOfHistory[i].url.search(regex)>-1){
+			if(arrayOfHistory[i].title.length>0)
+				output.innerHTML+='<li><a href='+arrayOfHistory[i].url+' target=_blank>'+arrayOfHistory[i].title+'</a></li>';
 		}
 	}
 	if(output.innerHTML==='') output.innerHTML="No Results Found!!!";
@@ -34,7 +35,8 @@ function recent(arrayOfHistory){
 	console.log(arrayOfHistory);
 	output.innerHTML='';
 	for(i=0;i<arrayOfHistory.length;i++){
-		output.innerHTML+='<li><a href='+(arrayOfHistory[i].url)+' target=_blank>'+(arrayOfHistory[i].title)+'</a></li>';
+		if(arrayOfHistory[i].title.length>0)
+			output.innerHTML+='<li><a href='+(arrayOfHistory[i].url)+' target=_blank>'+(arrayOfHistory[i].title)+'</a></li>';
 	}
 	if(output.innerHTML==='') output.innerHTML='No recent Browsing !';
 	return false;

@@ -16,20 +16,12 @@ h1{
 #filter{
 	float:right;
 	display: inline;
-}
-button{
-	color:teal;
-	font-size:12px;
-	background:white;
-	padding:5px;
+	cursor:pointer;
 }
 article{
 	height:85%;
 	margin: 20px 0px;
 	
-}
-div:first-child{
-	display:none;
 }
 article div input{
 	margin:5px 15px;
