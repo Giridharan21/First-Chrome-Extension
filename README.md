@@ -1,2 +1,2 @@
-improving the read me content
-History is accessed easily!.
+#cHROME EXTENSION 
+Accessing the recent webpages easily!
