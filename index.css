@@ -1,0 +1,52 @@
+*{
+	font-family:rockwell;
+	
+}
+body{
+	background:lightgrey;
+	width:300px;
+	height:450px;
+	padding:10px;
+}
+h1{
+	color:teal;
+	padding:5px;
+	display:inline;
+}
+#filter{
+	float:right;
+	display: inline;
+}
+button{
+	color:teal;
+	font-size:12px;
+	background:white;
+	padding:5px;
+}
+article{
+	height:85%;
+	margin: 20px 0px;
+	
+}
+div:first-child{
+	display:none;
+}
+article div input{
+	margin:5px 15px;
+	width:95%;
+	height:25px;
+	
+}
+div{
+	word-wrap:break-word;
+}
+article div ol {
+	font-size:14px;
+	margin:10px 10px 0px 0;
+	overflow:auto;
+	height:90%;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
