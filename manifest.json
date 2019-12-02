@@ -1,0 +1,19 @@
+{
+	"manifest_version":2,
+	"name":"Browsing History",
+	"version":"2.0",
+	"description":"Getting the Desired Page Visited from History",
+	"author":"giridharan",
+	"browser_action":{
+		"default_popup":"index.html",
+		"default_icon":{
+			"256":"icon.png",
+			"128":"icon.png",
+			"48":"icon.png",
+			"36":"icon.png",
+			"16":"icon.png"
+		}
+	},
+	"icons":{"128":"icon.png"},
+	"permissions":["history"]
+}
