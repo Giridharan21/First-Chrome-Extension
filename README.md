@@ -1,2 +1,1 @@
-#CHROME EXTENSION 
-Accessing the recent webpages easily!
+Accessing the recent webpages easily! through a chrome extension
