@@ -1,2 +1,2 @@
-# Chrome-Extension-
+# Chrome-Extension
 Accessing the history easily
