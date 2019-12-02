@@ -1,2 +1,2 @@
-# Chrome-Extension
-Accessing the history easily
+improving the read me content
+History is accessed easily!.
