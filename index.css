@@ -4,35 +4,30 @@
 }
 body{
 	background:lightgrey;
-	width:300px;
-	height:450px;
+	width:270px;
+	height:400px;
 	padding:10px;
+}
+header{
+	text-align:center;
 }
 h1{
 	color:teal;
 	padding:5px;
 	display:inline;
 }
-#filter{
+/*#settings{
 	float:right;
 	display: inline;
-}
-button{
-	color:teal;
-	font-size:12px;
-	background:white;
-	padding:5px;
-}
+	cursor:pointer;
+}*/
 article{
 	height:85%;
-	margin: 20px 0px;
+	margin: 10px 0px;
 	
 }
-div:first-child{
-	display:none;
-}
 article div input{
-	margin:5px 15px;
+	margin:0px 15px 5px;
 	width:95%;
 	height:25px;
 	
@@ -42,9 +37,12 @@ div{
 }
 article div ol {
 	font-size:14px;
-	margin:10px 10px 0px 0;
+	margin:10px  0px;
 	overflow:auto;
-	height:90%;
+	height:300px;
+}
+li{
+	margin-bottom:6px;
 }
 a{
 	text-decoration:none;
