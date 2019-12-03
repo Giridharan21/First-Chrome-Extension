@@ -17,7 +17,6 @@ function temp(){
 }
 //filtering the result
 function filterFunction(arrayOfHistory){
-	output.style.height='370px';
 	str=inputText.value;
 	let regex=new RegExp(str,'i');
 	output.innerHTML='';

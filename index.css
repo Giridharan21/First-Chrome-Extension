@@ -8,16 +8,19 @@ body{
 	height:400px;
 	padding:10px;
 }
+header{
+	text-align:center;
+}
 h1{
 	color:teal;
 	padding:5px;
 	display:inline;
 }
-#settings{
+/*#settings{
 	float:right;
 	display: inline;
 	cursor:pointer;
-}
+}*/
 article{
 	height:85%;
 	margin: 10px 0px;
@@ -34,9 +37,12 @@ div{
 }
 article div ol {
 	font-size:14px;
-	margin:10px 10px 0px 0;
+	margin:10px  0px;
 	overflow:auto;
-	height:90%;
+	height:300px;
+}
+li{
+	margin-bottom:6px;
 }
 a{
 	text-decoration:none;
