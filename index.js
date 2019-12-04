@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded',function(){
 	//recent();
 	chrome.history.search({text:'',maxResults:300},function(arr){array=arr;recent(arr);});
 	inputText.addEventListener('keyup',temp);
+	inputText.focus();
 });
 //temp function 
 function temp(){
