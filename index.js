@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded',function(){
 	chrome.history.search({text:'',maxResults:300},function(arr){array=arr;recent(arr);});
 	inputText.addEventListener('keyup',temp);
 	inputText.focus();
+	inputText.style.outlineColor="teal";
 });
 //temp function 
 function temp(){
